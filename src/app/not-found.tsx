@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import Header from '@/components/Header'
+import Link from "next/link";
+import Header from "@/components/Header";
 
 export default function NotFound() {
   return (
@@ -17,5 +17,5 @@ export default function NotFound() {
         </div>
       </div>
     </div>
-  )
+  );
 }

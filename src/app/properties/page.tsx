@@ -8,7 +8,8 @@ export default function PropertiesPage() {
         <div className="text-center">
           <h1 className="text-4xl font-light mb-6">Properties</h1>
           <p className="text-gray-600 mb-8">
-            This page is under construction. Please continue prompting to fill in the content for this page.
+            This page is under construction. Please continue prompting to fill
+            in the content for this page.
           </p>
         </div>
       </div>
