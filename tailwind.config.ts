@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -47,15 +50,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        emaar: {
+          dark: "hsl(var(--emaar-dark))",
+          gold: "hsl(var(--emaar-gold))",
+          "light-gray": "hsl(var(--emaar-light-gray))",
+          "medium-gray": "hsl(var(--emaar-medium-gray))",
+          "text-light": "hsl(var(--emaar-text-light))",
         },
       },
       borderRadius: {
@@ -84,6 +84,9 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      backgroundImage: {
+        'hero-pattern': "linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3))",
       },
     },
   },
