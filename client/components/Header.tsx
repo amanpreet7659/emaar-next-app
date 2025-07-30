@@ -24,16 +24,28 @@ export default function Header() {
         {/* Top Bar */}
         <div className="flex items-center justify-between py-2 text-sm border-b border-gray-800">
           <div className="flex items-center space-x-6">
-            <Link to="/careers" className="hover:text-emaar-gold transition-colors">
+            <Link
+              to="/careers"
+              className="hover:text-emaar-gold transition-colors"
+            >
               CAREERS
             </Link>
-            <Link to="/investor-relations" className="hover:text-emaar-gold transition-colors">
+            <Link
+              to="/investor-relations"
+              className="hover:text-emaar-gold transition-colors"
+            >
               INVESTOR RELATIONS
             </Link>
-            <Link to="/community" className="hover:text-emaar-gold transition-colors">
+            <Link
+              to="/community"
+              className="hover:text-emaar-gold transition-colors"
+            >
               COMMUNITY
             </Link>
-            <Link to="/sustainability" className="hover:text-emaar-gold transition-colors">
+            <Link
+              to="/sustainability"
+              className="hover:text-emaar-gold transition-colors"
+            >
               SUSTAINABILITY
             </Link>
           </div>
@@ -45,7 +57,11 @@ export default function Header() {
                 <option value="ar">AR</option>
               </select>
             </div>
-            <Button variant="ghost" size="sm" className="text-white hover:text-emaar-gold">
+            <Button
+              variant="ghost"
+              size="sm"
+              className="text-white hover:text-emaar-gold"
+            >
               <User className="w-4 h-4 mr-2" />
               MY ACCOUNT
             </Button>
@@ -82,16 +98,26 @@ export default function Header() {
                       </NavigationMenuLink>
                     </div>
                     <NavigationMenuLink asChild>
-                      <Link to="/properties/dubai" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
-                        <div className="text-sm font-medium leading-none">Dubai</div>
+                      <Link
+                        to="/properties/dubai"
+                        className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                      >
+                        <div className="text-sm font-medium leading-none">
+                          Dubai
+                        </div>
                         <p className="line-clamp-2 text-xs leading-snug text-muted-foreground">
                           Premium properties in Dubai
                         </p>
                       </Link>
                     </NavigationMenuLink>
                     <NavigationMenuLink asChild>
-                      <Link to="/properties/international" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
-                        <div className="text-sm font-medium leading-none">International</div>
+                      <Link
+                        to="/properties/international"
+                        className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                      >
+                        <div className="text-sm font-medium leading-none">
+                          International
+                        </div>
                         <p className="line-clamp-2 text-xs leading-snug text-muted-foreground">
                           Global property portfolio
                         </p>
@@ -102,31 +128,46 @@ export default function Header() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link to="/communities" className="text-white hover:text-emaar-gold transition-colors font-medium">
+                <Link
+                  to="/communities"
+                  className="text-white hover:text-emaar-gold transition-colors font-medium"
+                >
                   COMMUNITIES
                 </Link>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link to="/lifestyle" className="text-white hover:text-emaar-gold transition-colors font-medium">
+                <Link
+                  to="/lifestyle"
+                  className="text-white hover:text-emaar-gold transition-colors font-medium"
+                >
                   LIFESTYLE
                 </Link>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link to="/about" className="text-white hover:text-emaar-gold transition-colors font-medium">
+                <Link
+                  to="/about"
+                  className="text-white hover:text-emaar-gold transition-colors font-medium"
+                >
                   ABOUT EMAAR
                 </Link>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link to="/news" className="text-white hover:text-emaar-gold transition-colors font-medium">
+                <Link
+                  to="/news"
+                  className="text-white hover:text-emaar-gold transition-colors font-medium"
+                >
                   NEWS
                 </Link>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link to="/contact" className="text-white hover:text-emaar-gold transition-colors font-medium">
+                <Link
+                  to="/contact"
+                  className="text-white hover:text-emaar-gold transition-colors font-medium"
+                >
                   CONTACT
                 </Link>
               </NavigationMenuItem>
@@ -141,7 +182,7 @@ export default function Header() {
                 className="bg-gray-800 border-gray-700 text-white placeholder-gray-400 pl-10 w-64"
               />
             </div>
-            
+
             <Button className="lg:hidden" variant="ghost" size="sm">
               <Menu className="w-5 h-5" />
             </Button>

@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ["Inter", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -86,7 +86,7 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       backgroundImage: {
-        'hero-pattern': "linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3))",
+        "hero-pattern": "linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3))",
       },
     },
   },
