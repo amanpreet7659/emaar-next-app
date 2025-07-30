@@ -23,6 +23,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Header from "@/components/Header";
 import Image from "next/image";
 import Link from "next/link";
+import './globals.css'
 
 export default function HomePage() {
   return (
