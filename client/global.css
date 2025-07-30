@@ -85,6 +85,21 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+@layer components {
+  .container {
+    @apply w-full mx-auto px-4 sm:px-6 lg:px-8;
+    max-width: 1200px;
+  }
+
+  .hero-text {
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-light tracking-wide;
+  }
+
+  .section-heading {
+    @apply text-2xl sm:text-3xl md:text-4xl font-light;
   }
 }
